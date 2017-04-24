@@ -15,8 +15,8 @@ set ( LUA_CPATH "LUA_CPATH" CACHE STRING "Environment variable to use as package
 set ( LUA_INIT "LUA_INIT" CACHE STRING "Environment variable for initial script." )
 
 option ( LUA_ANSI "Use only ansi features." OFF )
-option ( LUA_USE_RELATIVE_LOADLIB "Use modified loadlib.c with support for relative paths on posix systems." ON )
-option ( LUA_COMPAT_ALL "Enable backwards compatibility options." ON )
+option ( LUA_USE_RELATIVE_LOADLIB "Use modified loadlib.c with support for relative paths on posix systems." OFF )
+option ( LUA_COMPAT_ALL "Enable backwards compatibility options." OFF )
 set ( LUA_IDSIZE 60 CACHE NUMBER "gives the maximum size for the description of the source." )
 
 #2DO: LUAI_* and LUAL_* settings, for now defaults are used.
