@@ -43,7 +43,7 @@
 #cmakedefine LUA_USE_POPEN
 #cmakedefine LUA_USE_ULONGJMP
 #cmakedefine LUA_USE_GMTIME_R
-
+/* #cmakedefine LUA_USE_EXECUTE_SYSTEM */
 
 /*
 @@ LUA_PATH_DEFAULT is the default path that Lua uses to look for
